@@ -1,0 +1,3 @@
+This repository demonstrates a common error in ActionScript 3 related to default parameter values in function definitions. When a function is defined with default parameters, and it is called with fewer arguments than defined, the default parameter values should be used. However, if not handled correctly, ActionScript can throw errors or produce unexpected behavior. 
+
+The bug.as file shows a simple function with a default parameter. When the function is called without specifying the second argument, the default value (10) is expected. However, in this case, the default value is not used and an error occurs or an unexpected value is displayed. The bugSolution.as file demonstrates the corrected approach and provides a clear solution to this issue.  
